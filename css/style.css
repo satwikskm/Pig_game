@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Lobster&display=swap');
+
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lobster', cursive;
+    background: linear-gradient(to right,rgb(221, 82, 105),lightpink);  
+
+}
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+   
+    
+}
+
+.left-container  ,.right-container{
+    padding: 30px 100px;
+   
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.left-container{
+    background: rgb(255, 206, 206);
+}
+.right-container{
+    background: rgb(252, 221, 221);
+}
+.current{margin-right: 20px;
+    width: 100%;
+    background: rgb(233, 93, 116);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+.button img{
+    position: fixed;
+    width: 5%;
+    transform: translate(680px,-300px);
+}
+
+.button button{
+    width: 10%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.new-game{
+    transform: translate(650px,-380px);
+
+}
+
+.hold{
+    transform: translate(650px,-160px);
+
+}
+
+.roll-dice{
+    transform: translate(650px,-180px);
+
+}
+
+.Winner{
+    transform: translate(680px,-250px);
+    font-size: 30px;
+}
