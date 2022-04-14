@@ -87,7 +87,7 @@ if(lock === 0){
         
         
         }
-        else if(player1Score >=50){
+        else if(player2Score >=50){
             lock =1
         
             winner.textContent="Player 2 Wins !!!"
